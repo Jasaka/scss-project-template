@@ -1,0 +1,18 @@
+{
+  "name": "scss-project-template",
+  "version": "0.8.0",
+  "description": "Basic 7-1 scss template with preconfigured grunt file",
+  "author": "Jan Samak",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "*",
+    "grunt-strip-css-comments": "^1.3.0"
+  }
+}
