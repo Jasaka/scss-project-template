@@ -1,1 +1,1 @@
-# Just to create the folder
+# Place your other third-party assets here

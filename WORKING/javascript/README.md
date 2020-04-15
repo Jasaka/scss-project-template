@@ -1,1 +1,1 @@
-# Just to create the folder
+# Place your Javascript files here

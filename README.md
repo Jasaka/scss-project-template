@@ -1,33 +1,18 @@
-# Sass Boilerplate
+# Scss Dev Template
 
-This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.
-
+This is a template using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) adding a basic gruntfile necessary for easy Frontend Development and file structure.
+It is based on Hugo Giraudels Sass [Boilerplate](https://github.com/HugoGiraudel/sass-boilerplate).
 Each folder of this project has its own `README.md` file to explain the purpose and add extra information. Be sure to browse the repository to see how it works.
 
-## Using the indented syntax
+## Getting Started
 
-### Sass conversion
+### Get the gruntfile to work
 
-This boilerplate does not provide a `.sass` version as it would be painful to maintain both versions without an appropriate build process. However, it is very easy to convert this boilerplate to Sass indented syntax.
+To run the grunt tasks you will need to have [node.js](https://nodejs.org/en/) and grunt installed.
 
-Clone it, head into the project and then run:
+Then head into the root directory and run  
 
 ```
-sass-convert -F scss -T sass -i -R ./  && find . -iname “*.scss” -exec bash -c 'mv "$0" “${0%\.scss}.sass"' {} \;
+npm install
 ```
 
-### Use with Node-sass
-
-When using `node-sass` - in order to build that boilerplate, one needs to:
-
-- install `node-sass` if not yet installed:
-
-```bash
-npm install -g node-sass
-```
-
-- run build command from command line:
-
-```bash
-node-sass stylesheets/main.scss dist/main.css
-```
